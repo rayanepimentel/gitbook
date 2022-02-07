@@ -65,4 +65,17 @@ console.log(frutas);
 //[ "Banana", "Uva" ]
 ```
 
-****
+
+
+
+
+{% hint style="info" %}
+No exemplo `que utilizamos` todos itens era uma `string`, mas você pode armazenar vários tipos em uma mesma array.\
+Exemplo, uma array pode ter string, number, boolean...\
+
+
+```
+let sequence = [1, 1, 2, 3, 5, 8, 13];
+let  random = ['tree', 795, [0, 1, 2]];
+```
+{% endhint %}
