@@ -46,3 +46,7 @@
 
 * [Function](function/function.md)
 * [Exercício](function/exercicio.md)
+
+## Array
+
+* [Tipo array](array/tipo-array.md)
