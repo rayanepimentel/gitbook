@@ -2,7 +2,7 @@
 
 ### sort()
 
-O método sort() ordena os elementos do próprio array e retorna o array.
+O método `sort()` ordena os elementos do próprio array e retorna o array.
 
 ```
 let frutas = ["Banana", "Uva", "Caju", "Abacaxi", "Abacate"];
@@ -24,7 +24,7 @@ Primeiro ordenação maiúscula e depois ordenação minúscula.
 
 ### map()
 
-Utilizamos map() para percorrer array e para fazer alguma alteração.
+Utilizamos `map()`para percorrer array e para fazer alguma alteração.
 
 ```
 let frutas = ["banana", "uva", "caju", "abacaxi", "abacate"];
@@ -39,3 +39,17 @@ console.log(quantidade);
     "Quantidade: duas frutas de abacate" 
     ]
 ```
+
+### filter()
+
+`filter()` cria uma nova array com elementos que se enquadram em um determinado critério a partir de uma array existente.
+
+Exemplo, quero que retorne todas as frutas que começam **\[0]** com a letra **A**.
+
+```
+let frutas = ["Banana", "Uva", "Caju", "Abacaxi", "Abacate"];
+let filtrar = frutas.filter(fruta => fruta[0] === "A");
+console.log(filtrar);
+//[ "Abacate", "Abacaxi" ]
+```
+
