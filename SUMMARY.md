@@ -52,3 +52,7 @@
 * [Tipo array](array/tipo-array.md)
 * [Outros métodos](array/outros-metodos.md)
 * [Exercício](array/exercicio.md)
+
+## Object
+
+* [Tipo object](object/tipo-object.md)
