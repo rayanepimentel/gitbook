@@ -1,7 +1,6 @@
 # Tipo string
 
-String uma sequência de zero ou mais caracteres escritos entre aspas.\
-
+String uma sequência de zero ou mais caracteres escritos entre aspas.
 
 ```js
 let mensagem = "Olá mundo!";
@@ -22,8 +21,6 @@ let exemplo = 'I'm'; // erro
 let outroExemplo = "I'm"; // sem erro
 ```
 
-
-
 ### Concatenação
 
 Basicamente "colocar junto", é unir duas strings.
@@ -34,6 +31,8 @@ let message = "Oi, " + name + "! Tudo bem?";
 //Oi, Teresa! Tudo bem?
 ```
 
+`"mensagem"`` `**`+`**` ``variavel`
+
 Existe outra maneira além do **+,** template string.
 
 ```
@@ -42,3 +41,8 @@ let message = `Oi ${name}! Tudo bem?`;
 //Oi, Teresa! Tudo bem?
 ```
 
+Toda a frase precisa estar entre **` `` `** e a variável dentro **`${}`**.
+
+`` `mensagem ${variavel}` ``
+
+Eu particularmente gosto mais de usar template string.
