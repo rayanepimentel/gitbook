@@ -19,7 +19,7 @@ let usuario = {     // object
 };
 ```
 
-### Acessar propriedades&#x20;
+### Acessar propriedade
 
 Para acessar uma propriedade em object usamos sempre o objeto e a chave.
 
@@ -31,3 +31,10 @@ usuario.name // Anna
 usuario["name"] // Anna
 ```
 
+### Remover propriedade
+
+Para remover uma propriedade, podemos usar `delete`
+
+```javascript
+delete usuario.age;
+```
