@@ -53,3 +53,26 @@ console.log(filtrar);
 //[ "Abacate", "Abacaxi" ]
 ```
 
+### join()
+
+O `join()`permite concatenar todos os elementos de uma array e retorna uma string.
+
+```
+let frutas = ["Banana", "Uva", "Caju", "Abacaxi", "Abacate"];
+
+let exemploEspaco = frutas.join(" ");
+console.log(exemploEspaco);
+//Banana Uva Caju Abacaxi Abacate
+
+let exemploBarra = frutas.join("/");
+console.log(exemploBarra);
+//Banana/Uva/Caju/Abacaxi/Abacate
+
+let exemploVirgula = frutas.join(",");
+console.log(exemploVirgula);
+//Banana,Uva,Caju,Abacaxi,Abacate
+
+let exemploVirgulaEspaco = frutas.join(", ");
+console.log(exemploVirgulaEspaco);
+//Banana, Uva, Caju, Abacaxi, Abacate
+```
