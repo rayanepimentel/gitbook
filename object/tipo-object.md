@@ -14,7 +14,7 @@ Podemos ter um obj _usuario_, que tenha os dados do _usuario_.
 
 ```
 let usuario = {     // object
-  name: "Anna",    // chave "name" armazena o value "Anna"
+  name: "Ana",    // chave "name" armazena o value "Anna"
   age: 7          // chave "age" armazena o value 7
 };
 ```
@@ -26,9 +26,9 @@ Para acessar uma propriedade em object usamos sempre o objeto e a chave.
 **Exemplo:** Queremos saber o nome do _usuario_.
 
 ```
-usuario.name // Anna
+usuario.name // Ana
 
-usuario["name"] // Anna
+usuario["name"] // Ana
 ```
 
 ### Remover propriedade
@@ -37,4 +37,14 @@ Para remover uma propriedade, podemos usar `delete`
 
 ```javascript
 delete usuario.age;
+```
+
+### Adicionando uma nova propriedade
+
+Para adicionar uma nova propriedade chamamos `object` passando a `key` e atribuindo o`value`.
+
+```
+usuario.historia = "O pequeno polegar";
+console.log(usuario);
+// { name: "Anna", age: 7, historia: "O pequeno polegar" }
 ```
