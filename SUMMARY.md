@@ -50,3 +50,4 @@
 ## Array
 
 * [Tipo array](array/tipo-array.md)
+* [Outros métodos](array/outros-metodos.md)
