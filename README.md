@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/elas.jpg
-coverY: -17.085650723025584
+cover: .gitbook/assets/Screenshot 2022-02-13 at 17-54-03 Cópia de Elas Unidas.png
+coverY: -32.37819799777531
 ---
 
 # Bem-vinda!
@@ -42,7 +42,7 @@ Infelizmente não tenho repositório do github de 2018 :crying\_cat\_face:
 
 {% endtab %}
 
-{% tab title="2021" %}
+{% tab title="2022" %}
 {% embed url="https://github.com/rayanepimentel/ElasUnidas-javascript" %}
 
 
