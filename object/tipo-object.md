@@ -64,7 +64,7 @@ console.log(usuario);
 // { name: "Teresa", age: 7 }
 ```
 
-### Verificando de uma propriedade existe
+### Verificando se uma propriedade existe
 
 Para verificar se uma propriedade já existe, utilizamos o `in`.
 
