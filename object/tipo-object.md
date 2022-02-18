@@ -48,3 +48,39 @@ usuario.historia = "O pequeno polegar";
 console.log(usuario);
 // { name: "Anna", age: 7, historia: "O pequeno polegar" }
 ```
+
+Podemos também subtituir o valor de uma propriedade existente.
+
+Por exemplo, vamos substituir o nome de `"Anna"` por `"Teresa"`
+
+```
+let usuario = { // object
+    name: "Ana", // chave "name" armazena o value "Anna"
+    age: 7 // chave "age" armazena o value 7
+};
+
+usuario.name = "Teresa";
+console.log(usuario);
+// { name: "Teresa", age: 7 }
+```
+
+### Verificando de uma propriedade existe
+
+Para verificar se uma propriedade já existe, utilizamos o `in`.
+
+\-> Passamos a propriedade que queremos verificar. Ex: `"age"`
+
+\-> Depois o operador `in` e o  `object`
+
+O `in` retorna `true` ou `false`, se a propriedade existir será `true`, senão será `false`.
+
+```
+let usuario = { // object
+    name: "Ana", // chave "name" armazena o value "Anna"
+    age: 7 // chave "age" armazena o value 7
+};
+console.log("age" in usuario);
+// true
+console.log("address" in usuario);
+// false
+```
