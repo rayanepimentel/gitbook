@@ -4,7 +4,7 @@ Faz uma comparação entre valores e/ tipos e retorna true ou false.\
 É como se vocês estivesse perguntando:\
 
 
-```
+```javascript
 isso é `operador de comparação` a aquilo?
 - Sim (true)
 ou
@@ -13,7 +13,7 @@ ou
 
 * \[>] maior ou \[<] menor
 
-```
+```javascript
 let a = 10;
 let b = 5;
 
@@ -23,7 +23,7 @@ let conferirNovamente = a < b; //false
 
 * \[>=] maior ou igual ou \[<=] menor ou igual
 
-```
+```javascript
 let a = 10;
 let b = 5;
 let c = "10"
@@ -36,7 +36,7 @@ let porqueEIgual = a <= c; //true
 
 * \[==] igualdade - compara se os `valores` são iguais
 
-```
+```javascript
 let a = 10;
 let b = 5;
 let c = "10";
@@ -47,7 +47,7 @@ let conferirNovamente = a == c; //true
 
 * \[!=] compara se os `valores` são diferentes
 
-```
+```javascript
 let a = 10;
 let b = 5;
 let c = "10";
@@ -58,7 +58,7 @@ let conferirNovamente = a != c; //false
 
 * \[===] igualdade - compara se os `valores` e os `tipos` são iguais
 
-```
+```javascript
 let a = 10; //tipo number e valor 10
 let b = 5; //tipo number e valor 5
 let c = "10" //tipo string e valor 10
@@ -74,7 +74,7 @@ let resultado = b === d; //true
 
 * \[!==] diferente - compara se os `valores` ou os `tipos` são diferentes
 
-```
+```javascript
 let a = 10; //tipo number e valor 10
 let b = 5; //tipo number e valor 5
 let c = "10" //tipo string e valor 10

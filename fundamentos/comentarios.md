@@ -6,13 +6,13 @@ Os comentários são declarações que não são executadas. Geralmente usamos p
 
 * Em linha
 
-```
+```javascript
 // isso aqui é um comentário em linha
 ```
 
 * Em bloco
 
-```
+```javascript
 /*
 isso aqui
 é um comentário

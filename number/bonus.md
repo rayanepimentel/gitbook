@@ -4,7 +4,7 @@
 
 O toFixed(), arredonda os número de casas decimais após a vírgula e transforma em uma string.
 
-```
+```javascript
 let num = 10.52875544567;
 num.toFixed(2);
 //"10.53"

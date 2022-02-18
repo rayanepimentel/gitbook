@@ -14,7 +14,7 @@ Variáveis podem ter qualquer nome que inclua letras, números, $ e \_, desde qu
 Exemplo:\
 Temos a variável **estadoMorada**, que hoje atribuimos o valor de "São Paulo".
 
-```
+```javascript
 let estadoMorada = "São Paulo";
 ```
 

@@ -18,7 +18,7 @@ Espera uma ação do usuário.&#x20;
 
 Por exemplo, ao fazer uma pergunta esperamos que o usuário responda. E a resposta será o valor da variável.
 
-```
+```javascript
 let age = prompt("Olá, qual é a sua idade?");
 ```
 
@@ -26,7 +26,7 @@ let age = prompt("Olá, qual é a sua idade?");
 
 No prompt também podemos passar um valor "pré-preenchido".&#x20;
 
-```
+```javascript
 let age = prompt("Olá, qual é a sua idade?", 35);
 ```
 
@@ -38,7 +38,7 @@ Mostra uma mensagem e espera que o usuário pressione “OK” ou “Cancel”.&
 
 O seu retorno será `true`para OK e `false`para Cancel/ Esc.
 
-```
+```javascript
 let maiorDeIdade = confirm("Olá, você tem 18 anos ou mais? ");
 ```
 

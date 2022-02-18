@@ -6,7 +6,7 @@ Utilizamos o console.log(), para imprimir qualquer variável ou para imprimir qu
 
 Por exemplo:
 
-```
+```javascript
 let name = prompt("Qual é o seu nome? ");
 console.log(nome);
 console.log("essa é uma mensagem");

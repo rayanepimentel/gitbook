@@ -2,13 +2,13 @@
 
 String uma sequência de zero ou mais caracteres escritos entre aspas.
 
-```js
+```javascript
 let mensagem = "Olá mundo!";
 ```
 
 Pode ser entre aspas simples 'Oi' ou duplas "Oi".
 
-```
+```javascript
 let mensagem = 'Olá mundo!';
 ```
 
@@ -16,7 +16,7 @@ let mensagem = 'Olá mundo!';
 Importante: Se por exemplo na nossa string tenha uma palavra que use **'**, como **I'm** devemos usar aspas duplas.
 {% endhint %}
 
-```
+```javascript
 let exemplo = 'I'm'; // erro
 let outroExemplo = "I'm"; // sem erro
 ```
@@ -25,7 +25,7 @@ let outroExemplo = "I'm"; // sem erro
 
 Basicamente "colocar junto", é unir duas strings.
 
-```
+```javascript
 let name = "Teresa";
 let message = "Oi, " + name + "! Tudo bem?";
 //Oi, Teresa! Tudo bem?
@@ -35,7 +35,7 @@ let message = "Oi, " + name + "! Tudo bem?";
 
 Existe outra maneira além do **+,** template string.
 
-```
+```javascript
 let name = "Teresa";
 let message = `Oi ${name}! Tudo bem?`;
 //Oi, Teresa! Tudo bem?

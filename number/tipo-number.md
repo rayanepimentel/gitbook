@@ -38,7 +38,7 @@ Ou seja, ao utilizarmos **parseInt()** estamos dizendo que qualquer número apó
 E se quissessimos que a variável _myNumber_ seja um number float, usariamos **parseFloat()**.\
 
 
-```
+```javascript
 let myNumber = parseFloat("Olá, me passe um número qualquer"); //(ex de um numero informado pelo usuário: 100.254868)
 console.log(myNumber); // 100.254868
 ```

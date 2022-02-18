@@ -6,7 +6,7 @@ Veremos alguns métodos e propriedade de strings.
 
 Para sabermos o tamanho de uma string, utilizamos a propriedade length;
 
-```
+```javascript
 let tam = "festa";
 tam.length // 5
 
@@ -17,7 +17,7 @@ tam.length // 5
 
 Retorna o primeiro índice em que o elemento pode ser encontrado.
 
-```js
+```javascript
 let cat = "Frajola";
 cat.indexOf("a"); //vai nos retornar onde esta o primeiro a
 //2
@@ -32,7 +32,7 @@ O indexOf também diferencia maiúsculas de minúsculas.
 
 Retorna o último índice em que o elemento pode ser encontrado.
 
-```
+```javascript
 let cat = "Frajola";
 cat.lastIndexOf("a"); //vai nos retornar onde esta o ultimo a
 //6
@@ -42,7 +42,7 @@ cat.lastIndexOf("a"); //vai nos retornar onde esta o ultimo a
 
 Converte a string em minúsculas
 
-```
+```javascript
 let cat = "Frajola";
 cat.toLocaleLowerCase();
 //"frajola"
@@ -52,7 +52,7 @@ cat.toLocaleLowerCase();
 
 Converte a string em maiúsculas
 
-```
+```javascript
 let cat = "Frajola";
 cat.toLocaleUpperCase();
 //"FRAJOLA"
@@ -64,7 +64,7 @@ Passamos o índice e é retornado o caractere localizado nesse índice.
 
 Por exemplo, queremos que retorne o caractere localizado no índice 1 da nossa variável cat.&#x20;
 
-```
+```javascript
 let cat = "Frajola";
 cat.charAt(1);
 //r
@@ -78,7 +78,7 @@ O trim() remove os espaços de uma variável.&#x20;
 
 Digamos que queremos obter o username do usuário e não pode conter espaços em branco. Nesse caso utilizamos o trim();
 
-```
+```javascript
 let username = "Informe seu username";
 // retorno do usuário: "   Joaninha     "
 username.trim();
