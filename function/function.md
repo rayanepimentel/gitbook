@@ -6,7 +6,7 @@ Segundo a descrição da mozilla.org:
 
 Forma literal
 
-```
+```javascript
 function minhaFuncao() {return }';
 ```
 
@@ -22,7 +22,7 @@ Exemplo:
 
 Vamos criar uma função para mutiplicar dois númerosl
 
-```
+```javascript
 function multiplicar(x, y) {
     return (x * y)
 };

@@ -4,7 +4,7 @@
 
 O método `sort()` ordena os elementos do próprio array e retorna o array.
 
-```
+```javascript
 let frutas = ["Banana", "Uva", "Caju", "Abacaxi", "Abacate"];
 let ordenacao = frutas.sort();
 console.log(ordenacao);
@@ -13,7 +13,7 @@ console.log(ordenacao);
 
 \-> O sort() diferencia maiúscula e minúscula.
 
-```
+```javascript
 let frutas = ["banana", "Uva", "Caju", "abacaxi", "Abacate"];
 let ordenacao = frutas.sort()
 console.log(ordenacao)
@@ -26,7 +26,7 @@ Primeiro ordenação maiúscula e depois ordenação minúscula.
 
 Utilizamos `map()`para percorrer array e para fazer alguma alteração.
 
-```
+```javascript
 let frutas = ["banana", "uva", "caju", "abacaxi", "abacate"];
 let quantidade = frutas.map(qntFruta => `Quantidade: duas frutas de ${qntFruta}`);
 
@@ -46,7 +46,7 @@ console.log(quantidade);
 
 Exemplo, quero que retorne todas as frutas que começam **\[0]** com a letra **A**.
 
-```
+```javascript
 let frutas = ["Banana", "Uva", "Caju", "Abacaxi", "Abacate"];
 let filtrar = frutas.filter(fruta => fruta[0] === "A");
 console.log(filtrar);
@@ -57,7 +57,7 @@ console.log(filtrar);
 
 O `join()`permite concatenar todos os elementos de uma array e retorna uma string.
 
-```
+```javascript
 let frutas = ["Banana", "Uva", "Caju", "Abacaxi", "Abacate"];
 
 let exemploEspaco = frutas.join(" ");

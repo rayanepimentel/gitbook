@@ -4,7 +4,7 @@ Laço de repetição **for**, funciona quando precisamos executar algo mais de u
 
 Sintaxe
 
-```
+```javascript
 for ([inicialização]; [condição]; [expressão final])
    declaração
 ```
@@ -13,7 +13,7 @@ Exemplo:
 
 Digamos que precisamos andar 3 passos para chegarmos na praia.
 
-```
+```javascript
 let passo;
 for(passo = 1; passo <= 3; passo++){
   console.log("Dei "+ passo + "passos");
@@ -31,7 +31,7 @@ console.log("Chegamos!!!");
 
 Agora vamos imprimir os números de 5 - 10
 
-```
+```javascript
 for (let i = 5; i <= 10; i++) {
     console.log(i);
 }

@@ -2,7 +2,7 @@
 
 Com array podemos armazenar vários valores em uma única variável, como se fosse uma lista, ao invés de declarar item por item, você declara todos em uma única variável.
 
-```
+```javascript
 let semana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
 ```
 
@@ -10,14 +10,14 @@ O primeiro índice do array é 0, e quissessimos retornar apenas o domingo da no
 
 `variavel[i]`
 
-```
+```javascript
 let semana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
 console.log(semana[0]);
 ```
 
 ### Adicionar um novo item
 
-```
+```javascript
 let frutas = ["Banana", "Uva"];
 ```
 
@@ -25,7 +25,7 @@ let frutas = ["Banana", "Uva"];
 
 Para add um novo item no final do array, utilizamos `push`
 
-```
+```javascript
 frutas.push("Melancia");
 console.log(frutas);
 //[ "Banana", "Uva", "Melancia" ]
@@ -35,7 +35,7 @@ console.log(frutas);
 
 Para add um novo item no ínicio do array, utilizamos `unshift`
 
-```
+```javascript
 frutas.unshift("Manga");
 console.log(frutas);
 //[ "Manga", "Banana", "Uva", "Melancia" ]
@@ -47,7 +47,7 @@ console.log(frutas);
 
 Utilizamos `pop()`
 
-```
+```javascript
 frutas = [ "Manga", "Banana", "Uva", "Melancia" ];
 frutas.pop();
 console.log(frutas);
@@ -58,7 +58,7 @@ console.log(frutas);
 
 Utilizamos `shift()`
 
-```
+```javascript
 frutas = [ "Manga", "Banana", "Uva" ];
 frutas.shift();
 console.log(frutas);

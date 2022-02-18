@@ -2,7 +2,7 @@
 
 O `while`loop percorre a interação enquanto a condição  for verdadeira.
 
-```
+```javascript
 while (condição) {
   rotina
 }
@@ -10,7 +10,7 @@ while (condição) {
 
 Exemplo:
 
-```
+```javascript
 let passo = 1; 
 while (passo <= 3) {
     console.log("Dei " + passo + " passos");

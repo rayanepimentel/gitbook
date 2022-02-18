@@ -4,7 +4,7 @@ Um `object` pode ser criado com colchetes `{…}`com uma lista opcional de _prop
 
 **Sintaxe:**
 
-```
+```javascript
 let <nome-objeto> = { key1: value1, key2: value2,...};
 ```
 
@@ -12,7 +12,7 @@ let <nome-objeto> = { key1: value1, key2: value2,...};
 
 Podemos ter um obj _usuario_, que tenha os dados do _usuario_.
 
-```
+```javascript
 let usuario = {     // object
   name: "Ana",    // chave "name" armazena o value "Anna"
   age: 7          // chave "age" armazena o value 7
@@ -25,7 +25,7 @@ Para acessar uma propriedade em object usamos sempre o objeto e a chave.
 
 **Exemplo:** Queremos saber o nome do _usuario_.
 
-```
+```javascript
 usuario.name // Ana
 
 usuario["name"] // Ana
@@ -43,7 +43,7 @@ delete usuario.age;
 
 Para adicionar uma nova propriedade chamamos `object` passando a `key` e atribuindo o`value`.
 
-```
+```javascript
 usuario.historia = "O pequeno polegar";
 console.log(usuario);
 // { name: "Anna", age: 7, historia: "O pequeno polegar" }
@@ -53,7 +53,7 @@ Podemos também subtituir o valor de uma propriedade existente.
 
 Por exemplo, vamos substituir o nome de `"Anna"` por `"Teresa"`
 
-```
+```javascript
 let usuario = { // object
     name: "Ana", // chave "name" armazena o value "Anna"
     age: 7 // chave "age" armazena o value 7
@@ -74,7 +74,7 @@ Para verificar se uma propriedade já existe, utilizamos o `in`.
 
 O `in` retorna `true` ou `false`, se a propriedade existir será `true`, senão será `false`.
 
-```
+```javascript
 let usuario = { // object
     name: "Ana", // chave "name" armazena o value "Anna"
     age: 7 // chave "age" armazena o value 7
