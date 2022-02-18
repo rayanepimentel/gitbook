@@ -14,7 +14,7 @@ Exemplo:&#x20;
 
 Abrimos as inscrições para participar de curso X. E temos alguns critérios: para participar é preciso ter 18 anos ou mais e(&&) morar em SP.
 
-```js
+```javascript
 se idade >= 18 && cidade == "São Paulo"
   retorna "Maravilha, você pode participar";
 Senão
@@ -39,7 +39,7 @@ Operado **OR** o valor é true, se uns dos dados fornecido for true;
 
 Utilizando o mesmo exemplo para participar do curso Y precisa ter 18 anos ou mais ou(||) morar em São Paulo.
 
-```js
+```javascript
 se idade >= 18 || cidade == "São Paulo"
   retorna "Maravilha, você pode participar";
 Senão
@@ -64,7 +64,7 @@ Operador **!** inverte o valor.
 
 !true retorna false e !false retorna true.
 
-```js
+```javascript
 let tempo = "calor"
 let tempoAgora = "calor";
 let comparando = tempo == tempoAgora;

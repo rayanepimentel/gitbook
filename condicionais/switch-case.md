@@ -8,7 +8,7 @@ Ou seja, com **switch case** conseguimos executar diferentes blocos de código d
 
 Sintaxe
 
-```
+```javascript
 switch(expressão){
  case n1:
     bloco de código 1
@@ -23,7 +23,7 @@ switch(expressão){
 
 Exemplo
 
-```
+```javascript
 let num = 2
 
 switch (num) {
@@ -49,7 +49,7 @@ Caso break seja omitido, o programa continua a execução para a próxima instru
 
 No exemplo que utilizamos ao encontrar o case 2, a execução não é parada e irá rodar também o caso seguinte independentemente do critério ter sido correspondido ou não.
 
-```
+```javascript
 let num = 2
 
 switch (num) {

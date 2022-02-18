@@ -10,6 +10,6 @@
 
 Essa mensagem precisa ser personalizada, com o nome do usuário.
 
-```
+```javascript
 "Oi, Ray! Seja bem-vinda!"
 ```

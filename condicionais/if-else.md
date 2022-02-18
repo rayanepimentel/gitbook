@@ -7,13 +7,13 @@ Definição Developer Mozila:
 
 Sintaxe
 
-```
+```javascript
 if (condição) afirmação1 [else afirmação2]
 ```
 
 Exemplo:
 
-```
+```javascript
 let tempoFrio = true;
 
 if(tempoFrio == true) {
@@ -29,7 +29,7 @@ Temos outra canditada, a Helena que tem 30 anos e mora em Salvador.\
 Lembrando que para participar do curso precisa ter >= 18 **ou** morar em São Paulo.\
 
 
-```
+```javascript
 if(idade >= 18 || cidade == "São Paulo"){
   return "Maravilha, você pode participar";
 }else{
@@ -42,7 +42,7 @@ if(idade >= 18 || cidade == "São Paulo"){
 
 É quando temos mais de duas condições:
 
-```js
+```javascript
 let horario = "manhã"
 
 for(horario == "manhã") {
@@ -60,7 +60,7 @@ Usando o exemplo do curso.
 
 > Abrimos as inscrições para participar de curso X. E temos alguns critérios: para participar é preciso ter 18 anos ou mais e(&&) morar em SP.
 
-```
+```javascript
 if(idade >= 18 && cidade == "São Paulo"){
   retorna "Maravilha, você pode participar";
 }else{
@@ -72,7 +72,7 @@ Com mais de uma condição:
 
 Digamos que temos um restaurante que dás 08h até 12h só é servido café da manhã, a tarde até 17h é servido café da tarde e almoço e se tiver chovendo(tempo frio) teremos sopa, depois 18h somente pizza.
 
-```
+```javascript
 let horario = 16;
 let tempo = "frio";
 
