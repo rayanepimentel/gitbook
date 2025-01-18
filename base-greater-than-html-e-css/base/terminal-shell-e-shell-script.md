@@ -161,7 +161,7 @@ Agora você pode executar o script simplesmente digitando:
 
 
 
-## 6. **Exemplos Práticos e Comandos Básicos:**
+## 5. **Exemplos Práticos e Comandos Básicos:**
 
 
 
