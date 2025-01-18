@@ -25,7 +25,7 @@ Aprenda o que é HTML e como criar uma página web com textos marcados e imagens
 Concluir:
 
 \
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 ## 3. Formulário
 

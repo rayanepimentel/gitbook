@@ -2,7 +2,7 @@
 
 \
 **Contexto histórico sobre computadores:** [https://www.youtube.com/watch?v=xajcV4lwY3Q\&list=PLYjrJH3e\_wDOA5mxhiMxE6yslcIzU5NkX\&ab\_channel=ManualdoMundo](https://www.youtube.com/watch?v=xajcV4lwY3Q\&list=PLYjrJH3e_wDOA5mxhiMxE6yslcIzU5NkX\&ab_channel=ManualdoMundo)\
-**Filme**: O Jogo da Imitação (tem MAX)\
+**Filme**: O Jogo da Imitação (tem no MAX e no Youtube)\
 **Terminal, Shell e Shell Script**: Aula
 
 
