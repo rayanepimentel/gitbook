@@ -20,7 +20,7 @@ Você pode acessar por atalho:
 
 Ou clicando com botão esquerdo e depois em inspect/inspecionar.&#x20;
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 Ao digitar o nome e clicar em OK, será exibida no Console, o que colocarmos no console.log();
 
@@ -30,7 +30,7 @@ Ao digitar o nome e clicar em OK, será exibida no Console, o que colocarmos no 
 Usamos **console.log()** quando queremos testar algo, mas tenha cuidado para não subir o seu código com console.log(), claro para esse estudo não tem problema, podemos usar.&#x20;
 {% endhint %}
 
-### Como resolver um problema**?**
+### Como resolver um problem&#x61;**?**
 
 Nesse guia teremos alguns exercícios e vou compartilhar com vocês como eu costumo resolver. E se fizer sentido para você, use :hugging:
 
@@ -49,13 +49,9 @@ Eu leio o que eu preciso fazer e faço uma divisão, assim tenho uma visão do p
 
 **Fazendo a divisão** :white\_check\_mark:
 
-| O que eu preciso?              | O que eu sei?                                                                 | Sei +/-                                                                                                                                                           | Não sei                                                       |
-| ------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| Endereço completo              | Que a loja fica em outro bairro, não vou caminhando.                          | Se eu não vou caminhando, terei que pegar transporte publico, trem/metro/bus. Só que eu nunca usei transporte público nessa cidade. Mas vou fazer umas pesquisas. | Não sei o nome do produto, vou ter que perguntar a minha avó. |
-| Nome do produto                | Não sei o endereço completo, mas sei o nome da loja posso pesquisar no google |                                                                                                                                                                   |                                                               |
-| E como chegar la? (transporte) |                                                                               |                                                                                                                                                                   |                                                               |
+<table><thead><tr><th width="154">O que eu preciso?</th><th width="176">O que eu sei?</th><th>Sei +/-</th><th>Não sei</th></tr></thead><tbody><tr><td>Endereço completo</td><td>Que a loja fica em outro bairro, não vou caminhando.</td><td>Se eu não vou caminhando, terei que pegar transporte publico, trem/metro/bus. Só que eu nunca usei transporte público nessa cidade. Mas vou fazer umas pesquisas.</td><td>Não sei o nome do produto, vou ter que perguntar a minha avó.</td></tr><tr><td>Nome do produto</td><td>Não sei o endereço completo, mas sei o nome da loja posso pesquisar no google</td><td></td><td></td></tr><tr><td>E como chegar la? (transporte)</td><td></td><td></td><td></td></tr></tbody></table>
 
-**1->** O que eu já sei, foi _resolvido_**.**  Pesquisei o endereço no google e achei \o/ :white\_check\_mark: ****&#x20;
+**1->** O que eu já sei, foi _resolvido_**.**  Pesquisei o endereço no google e achei \o/ :white\_check\_mark:&#x20;
 
 **2->** Mas não sei qual o melhor caminho seguir, melhor perguntar a minha mãe qual o melhor caminho que ela faria. Já levo as opções e os horários que eu posso ir, vai que nesse horário seja horário de pico no metro/trem/bus?
 
@@ -69,7 +65,7 @@ Com essas informções eu consigo prosseguir, vou analisar _mas já sei o que fa
 
 **3->** Perguntei a minha avó e ela me passou o nome do produto. :white\_check\_mark:
 
-****
+
 
 **Problema resolvido:**
 

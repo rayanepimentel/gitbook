@@ -41,8 +41,5 @@ Mais exemplos:
 
 ### Resumo
 
-| Number    | Exemplo             | Converter       | Exemplo                                            |
-| --------- | ------------------- | --------------- | -------------------------------------------------- |
-| **Int**   | let num = **13**    | **parsInt()**   | let idade = **parseInt**("Informe a sua idade");   |
-| **Float** | let num = **10.11** | **parsFloat()** | let idade = **parseFloat**("Informe a sua idade"); |
+<table><thead><tr><th width="150">Number</th><th width="150">Exemplo</th><th width="150">Converter</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Int</strong></td><td>let num = <strong>13</strong></td><td><strong>parsInt()</strong></td><td>let idade = <strong>parseInt</strong>("Informe a sua idade");</td></tr><tr><td><strong>Float</strong></td><td>let num = <strong>10.11</strong></td><td><strong>parsFloat()</strong></td><td>let idade = <strong>parseFloat</strong>("Informe a sua idade");</td></tr></tbody></table>
 
