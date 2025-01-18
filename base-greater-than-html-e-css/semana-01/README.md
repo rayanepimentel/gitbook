@@ -29,9 +29,9 @@ Concluir:
 
 ## 3. Formulário
 
-Responda o formulário.\
+Responda o formulário:\
 [Semana 01 - HTML e CSS](https://docs.google.com/forms/d/e/1FAIpQLScraOTdf-V6JWE01eYkzPqMAwE4I6xrBPJmC0ucrQj3q3ovdA/viewform?hr_submission=ChkIqbCi4awLEhAIloTh9IEUEgcI7_T4ydUNEAE)
 
-## Resumo semana 01
+## 4. Resumo semana 01
 
-Ir para [Resumo semana 01](./#resumo-semana-01)
+Ir para [Resumo semana 01](resumo-semana-01.md)
