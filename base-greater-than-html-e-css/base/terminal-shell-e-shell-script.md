@@ -1,6 +1,6 @@
 # Terminal, Shell e Shell Script
 
-**1. O que é o Terminal?**
+## **1. O que é o Terminal?**
 
 Imagine o seu computador como um prédio com muitos departamentos (programas). A interface gráfica (janelas, ícones, menus) é como o hall de entrada, bonito e fácil de usar para visitantes. O Terminal, por outro lado, é como a porta dos fundos, um acesso direto para os "bastidores" do sistema. Ele permite interagir com o computador através de comandos de texto.
 
@@ -14,7 +14,9 @@ Imagine o seu computador como um prédio com muitos departamentos (programas). A
   * **PowerShell:** Pesquise por "PowerShell" no menu Iniciar e execute "Windows PowerShell".
 * **macOS:** Command + a tecla espaço e digite "terminal".
 
-**2. O que é o Shell?**
+## 2. **O que é o Shell?**
+
+
 
 O Shell é o "tradutor" entre você e o sistema operacional. Quando você digita um comando no Terminal, o Shell interpreta esse comando e o envia para o sistema executar. Ele também exibe o resultado da execução para você.
 
@@ -43,6 +45,8 @@ Ou, de forma mais completa e robusta (independente do idioma do sistema):
 
 * `cd`: Comando para mudar de diretório.
 * `Documentos` ou `~/Documentos`: Caminho para a pasta "Documentos". O `~` representa o diretório home do usuário.
+
+## 3. **Como instalar o Git Bash no Windows:**
 
 
 
@@ -78,7 +82,9 @@ A partir de agora, todos os exemplos e exercícios usarão comandos Unix/Linux, 
 * `rm`: Remover arquivos.
 * `pwd`: Mostrar o diretório atual.
 
-**3. O que é um Shell Script?**
+## 4. **O que é um Shell Script?**
+
+
 
 Um Shell Script é um arquivo de texto que contém uma sequência de comandos que seriam digitados no Terminal. É como uma "receita" ou um "programa" que automatiza tarefas.
 
@@ -153,7 +159,11 @@ Agora você pode executar o script simplesmente digitando:
 ./script.sh
 ```
 
-**Exemplos Práticos e Comandos Básicos:**
+
+
+## 6. **Exemplos Práticos e Comandos Básicos:**
+
+
 
 * `cd` (change directory): Navega entre pastas.
   * Exemplo: `cd Documentos` - Entra na pasta "Documentos".
@@ -166,7 +176,28 @@ Agora você pode executar o script simplesmente digitando:
 * `cp` (macOS): Copia arquivos.
   * Exemplo: `cp arquivo.txt destino.txt` - Copia "arquivo.txt" para "destino.txt".
 
+**Tabela com os principais comandos**
 
+
+
+| Categoria                                | Comando                 | Descrição                                                                                                                                                                | Exemplo                                                 | Observações                                                                                                                                   |
+| ---------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Navegação**                            | `pwd`                   | Imprime o diretório de trabalho atual (mostra o caminho completo da pasta onde você está).                                                                               | `pwd`                                                   | Essencial para saber sua localização no sistema de arquivos.                                                                                  |
+|                                          | `ls`                    | Lista os arquivos e diretórios no diretório atual.                                                                                                                       | `ls` ou `ls -l` (lista com detalhes)                    | `ls -l` mostra informações como permissões, tamanho, data de modificação, etc. `ls -a` lista arquivos ocultos.                                |
+|                                          | `cd [diretório]`        | Muda o diretório de trabalho atual para o diretório especificado.                                                                                                        | `cd Documentos`, `cd ~/Downloads`, `cd /var/log`        | Use `~` para representar seu diretório home. Caminhos absolutos começam com `/`.                                                              |
+|                                          | `cd ..`                 | Navega para o diretório pai (o diretório que contém o diretório atual).                                                                                                  | `cd ..`                                                 | Equivalente a "voltar uma pasta".                                                                                                             |
+|                                          | `cd ~`                  | Navega para o diretório home do usuário.                                                                                                                                 | `cd ~`                                                  | Atalho para ir diretamente para sua pasta pessoal.                                                                                            |
+| **Manipulação de Arquivos e Diretórios** | `mkdir [nome]`          | Cria um novo diretório (pasta).                                                                                                                                          | `mkdir NovaPasta`                                       |                                                                                                                                               |
+|                                          | `touch [nome]`          | Cria um novo arquivo vazio.                                                                                                                                              | `touch novo_arquivo.txt`                                | Útil para criar rapidamente arquivos de texto ou outros tipos de arquivos vazios.                                                             |
+|                                          | `cp [origem] [destino]` | Copia um arquivo ou diretório da origem para o destino.                                                                                                                  | `cp arquivo.txt copia.txt`, `cp -r pasta1 pasta2`       | Use `-r` (recursivo) para copiar diretórios e seu conteúdo.                                                                                   |
+|                                          | `mv [origem] [destino]` | Move ou renomeia um arquivo ou diretório.                                                                                                                                | `mv arquivo.txt novo_nome.txt`, `mv arquivo.txt pasta/` | Se o destino for um diretório, o arquivo é movido para dentro dele. Se o destino for um novo nome, o arquivo é renomeado.                     |
+|                                          | `rm [arquivo]`          | Remove (deleta) um arquivo.                                                                                                                                              | `rm arquivo.txt`                                        | **Cuidado!** A remoção é permanente. Use com cautela.                                                                                         |
+|                                          | `rmdir [diretório]`     | Remove um diretório _vazio_.                                                                                                                                             | `rmdir pasta_vazia`                                     | Só funciona se o diretório estiver vazio.                                                                                                     |
+|                                          | `rm -r [diretório]`     | Remove um diretório e todo o seu conteúdo (arquivos e subdiretórios).                                                                                                    | `rm -r pasta_com_arquivos`                              | **Extremo cuidado!** A remoção é permanente e _não há como desfazer_. Use com extrema cautela.                                                |
+| **Visualizar Conteúdo**                  | `cat [arquivo]`         | Exibe o conteúdo de um arquivo na tela.                                                                                                                                  | `cat arquivo.txt`                                       | Útil para arquivos pequenos. Para arquivos grandes, use `less`.                                                                               |
+|                                          | `less [arquivo]`        | Exibe o conteúdo de um arquivo de forma paginada, permitindo navegar pelo conteúdo usando as setas do teclado, barra de espaço e outras teclas. Pressione `q` para sair. | `less arquivo_grande.txt`                               | Ideal para arquivos extensos.                                                                                                                 |
+|                                          | `head [arquivo]`        | Mostra as primeiras linhas de um arquivo (por padrão, as 10 primeiras).                                                                                                  | `head arquivo.txt`, `head -n 20 arquivo.txt`            | `-n [número]` especifica o número de linhas a serem exibidas.                                                                                 |
+|                                          | `tail [arquivo]`        | Mostra as últimas linhas de um arquivo (por padrão, as 10 últimas).                                                                                                      | `tail arquivo.txt`, `tail -f arquivo.txt`               | `-n [número]` especifica o número de linhas. `-f` (follow) monitora o arquivo em tempo real, mostrando novas linhas conforme são adicionadas. |
 
 
 
