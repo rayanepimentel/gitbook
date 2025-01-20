@@ -19,7 +19,7 @@ Se observamos temos alguns arquivos e diretórios com letras. O que essas letras
 * Execução → x -1
 
 {% hint style="success" %}
-&#x20;**Leitura(read)** permite ao usuário ler o conteúdo do arquivo mas não alterá-lo. \
+**Leitura(read)** permite ao usuário ler o conteúdo do arquivo mas não alterá-lo. \
 **Escrita(write)** permite que o usuário altere o arquivo. \
 **Execução(x)**, como o nome diz, permite que o usuário execute o arquivo, no caso de ser executável.
 {% endhint %}
@@ -152,3 +152,97 @@ Arquivo criado: meu_arquivo.txt
 
 
 
+### Criando mais de um arquivo&#x20;
+
+Digamos que você precisa criar mais de uma arquivo por vez. Como você faria isso?
+
+1. Primeiro temos que pegar todos os argumentos
+2. Depois precisar percorrer cada argumento e criar um arquivo com a extensão `.txt` .
+
+Pegar todos os argumentos: **$@**
+
+Percorrer cada argumento: **for...in**
+
+**Reveja** [**Argumentos**](shell-script.md#id-1.-argumentos) **e** [**Loops For**](shell-script.md#id-3.-loops-for) **em Shell Script**
+
+<pre class="language-bash"><code class="lang-bash">#!/bin/bash
+
+# Verifica se foram passados argumentos
+
+# $# Número total de argumentos fornecidos
+# -eq Igual
+<strong># Se o numero total de argumentos for igual a 0 (zero)
+</strong># então imprima essa mensagem
+
+if [ "$#" -eq 0 ]; then
+  echo "Uso: $0 arquivo1 arquivo2 arquivo3 ..."
+  exit 1
+fi
+
+# Se o numero total de argumentos for maior que 0 (zero)
+# execute os proximos passo
+
+# Itera sobre cada argumento
+for nome in "$@"; do
+  # Adiciona a extensão .txt ao nome do arquivo
+  arquivo="${nome}.txt"
+
+  # Cria o arquivo
+  touch "$arquivo"
+
+  # Define as permissões (proprietário: rw-, grupo: r--, outros: r--)
+  chmod 644 "$arquivo"
+
+  # Exibe mensagem de sucesso
+  echo "Arquivo criado: $arquivo (Permissões: rw-r--r--)"
+  # Se ainda tiver arquivo começa o loop novamente
+done
+
+</code></pre>
+
+
+
+### Lição para casa
+
+**E se só pudéssemos criar apenas 3 arquivos por vez, como seria isso?**&#x20;
+
+Além de verificar a quantidade de arquivos menor que 0(zero), você precisa verificar se a quantidade é maior que 3, se for maior imprimir uma mensagem de erro
+
+```
+$ ./meu_script arquivo1 arquivo2 arquivo3 arquivo4
+
+// Saída
+Erro: você só pode criar até 3 arquivos de uma vez.
+```
+
+\
+\
+**E se não quiséssemos parar o programa, como ficaria o script?**\
+**Por exemplo, o usuário passou 4 argumento**
+
+```
+$ ./meu_script arquivo1 arquivo2 arquivo3 arquivo4
+
+// saída
+Arquivo criado: arquivo1.txt (Permissões: rw-r--r--)
+Arquivo criado: arquivo2.txt (Permissões: rw-r--r--)
+Arquivo criado: arquivo3.txt (Permissões: rw-r--r--)
+
+```
+
+O programa "aceitou" os 4 argumentos mas só gerou 3 arquivos. \
+Como você faria isso?
+
+**E se no final exibisse uma mensagem de aviso, informando "Aviso: Apenas os 3 primeiros arquivos foram criados. Ignorando o restante.", como ficaria?**\
+\
+Exemplo de saída:
+
+```
+$ ./meu_script arquivo1 arquivo2 arquivo3 arquivo4
+
+// saída
+Arquivo criado: arquivo1.txt (Permissões: rw-r--r--)
+Arquivo criado: arquivo2.txt (Permissões: rw-r--r--)
+Arquivo criado: arquivo3.txt (Permissões: rw-r--r--)
+Aviso: Apenas os 3 primeiros arquivos foram criados. Ignorando o restante.
+```
