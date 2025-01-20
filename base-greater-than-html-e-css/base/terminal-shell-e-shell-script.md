@@ -131,7 +131,7 @@ Como você precisa executar esses comandos repetidamente, o ideal é automatizar
     ```sh
     $ nano script.sh  # Abre o arquivo script.sh no editor nano
     ```
-2.  **Escrevendo o script:** Abra o arquivo `script.sh` com um editor de texto (como o Nano, Vim, VS Code, Bloco de Notas, etc.) e adicione as seguintes linhas:
+2.  **Escrevendo o script:** Abra o arquivo `script.sh` com um editor de texto (como o Nano, Vim, VS Code, etc.) e adicione as seguintes linhas:
 
     ```bash
     #!/bin/bash
