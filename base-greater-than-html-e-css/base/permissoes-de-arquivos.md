@@ -90,5 +90,65 @@ Alterado com sucesso!
 
 
 
+## Script: `configurar_permissoes.sh`
+
+Exemplo de um script em Shell que recebe o nome do arquivo como argumento, adiciona a extensão `.txt` ao nome e depois define permissões para o proprietário, grupo e outros usuários.
+
+```bash
+#!/bin/bash
+
+# Verificar se o argumento foi fornecido
+if [ -z "$1" ]; then
+  echo "Por favor, forneça o nome do arquivo como argumento."
+  exit 1
+fi
+
+# Nome do arquivo (adiciona a extensão .txt)
+nome_arquivo="$1.txt"
+
+# Criar o arquivo 
+touch "$nome_arquivo"
+
+# Definir permissões para o proprietário, grupo e outros
+chmod 744 "$nome_arquivo"
+
+# Exibir o arquivo e suas permissões
+echo "Arquivo criado: $nome_arquivo"
+ls -l "$nome_arquivo"
+```
+
+#### Explicação:
+
+1. O script verifica se o nome do arquivo foi passado como argumento. Se não, ele solicita o nome.
+2. O nome do arquivo fornecido tem a extensão `.txt` adicionada.
+3. O comando `touch` cria o arquivo (caso não exista).
+4. O comando `chmod 744` define as permissões do arquivo:
+   * **Proprietário**: leitura, escrita e execução (7).
+   * **Grupo**: leitura (4).
+   * **Outros**: leitura (4).
+5. O script exibe o arquivo criado e suas permissões com o comando `ls -l`.
+
+#### Como executar:
+
+1.  Torne o script executável:
+
+    ```bash
+    chmod +x configurar_permissoes.sh
+    ```
+2.  Execute o script passando o nome do arquivo (sem a extensão):
+
+    ```bash
+    $ ./configurar_permissoes.sh meu_arquivo
+    ```
+
+#### Saída esperada:
+
+Se o nome do arquivo passado for "meu\_arquivo", o script criará "meu\_arquivo.txt" e configurará as permissões. A saída será algo como:
+
+```bash
+Arquivo criado: meu_arquivo.txt
+-rwxr--r-- 1 usuario usuario 0 jan 20 12:00 meu_arquivo.txt
+```
+
 
 
