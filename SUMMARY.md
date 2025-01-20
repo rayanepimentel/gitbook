@@ -4,6 +4,7 @@
 * [Base -> HTML e CSS](base-greater-than-html-e-css/README.md)
   * [Base](base-greater-than-html-e-css/base/README.md)
     * [Terminal, Shell e Shell Script](base-greater-than-html-e-css/base/terminal-shell-e-shell-script.md)
+    * [Shell Script](base-greater-than-html-e-css/base/shell-script.md)
   * [HTML & CS](base-greater-than-html-e-css/html-and-cs.md)
   * [Semana 01](base-greater-than-html-e-css/semana-01/README.md)
     * [Resumo semana 01](base-greater-than-html-e-css/semana-01/resumo-semana-01.md)
