@@ -41,7 +41,7 @@ switch (num) {
 }
 ```
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 ### Break
 
@@ -64,4 +64,4 @@ switch (num) {
 }
 ```
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)

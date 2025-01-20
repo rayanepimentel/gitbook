@@ -42,5 +42,5 @@ O seu retorno será `true`para OK e `false`para Cancel/ Esc.
 let maiorDeIdade = confirm("Olá, você tem 18 anos ou mais? ");
 ```
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
