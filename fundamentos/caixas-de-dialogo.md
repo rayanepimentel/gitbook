@@ -10,7 +10,7 @@ Mostra uma mensagem na tela em forma de pop up e espera que o usuário clique em
 alert("Hello");
 ```
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 ### prompt()
 
@@ -22,7 +22,7 @@ Por exemplo, ao fazer uma pergunta esperamos que o usuário responda. E a respos
 let age = prompt("Olá, qual é a sua idade?");
 ```
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (18).png>)
 
 No prompt também podemos passar um valor "pré-preenchido".&#x20;
 
@@ -30,7 +30,7 @@ No prompt também podemos passar um valor "pré-preenchido".&#x20;
 let age = prompt("Olá, qual é a sua idade?", 35);
 ```
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (10).png>)
 
 ### Confirm()
 
@@ -42,5 +42,5 @@ O seu retorno será `true`para OK e `false`para Cancel/ Esc.
 let maiorDeIdade = confirm("Olá, você tem 18 anos ou mais? ");
 ```
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (9).png>)
 

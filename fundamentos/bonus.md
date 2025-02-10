@@ -20,11 +20,11 @@ Você pode acessar por atalho:
 
 Ou clicando com botão esquerdo e depois em inspect/inspecionar.&#x20;
 
-![](<../.gitbook/assets/image (2) (1) (1).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 Ao digitar o nome e clicar em OK, será exibida no Console, o que colocarmos no console.log();
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (13).png>)
 
 {% hint style="info" %}
 Usamos **console.log()** quando queremos testar algo, mas tenha cuidado para não subir o seu código com console.log(), claro para esse estudo não tem problema, podemos usar.&#x20;
