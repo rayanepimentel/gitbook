@@ -6,7 +6,7 @@ Comandos:
 
 * `ls` exibi o que tem na minha pasta
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * `ls -la` exibi o que tem na minha pasta inclusive arquivos ocultos.
 

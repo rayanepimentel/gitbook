@@ -25,7 +25,7 @@ console.log("Chegamos!!!");
 * e iriá repetir a mensagem até passo <=3, é a nossa condição
 * passo++ é aumentada cada vez que o código é executado
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 
 
@@ -39,4 +39,4 @@ for (let i = 5; i <= 10; i++) {
 
 Como precisamos imprimir de 5 - 10, o `let i` tem que ser `igual a 5` e a nossa condição `<= 10`
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (7).png>)

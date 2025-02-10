@@ -19,4 +19,4 @@ while (passo <= 3) {
 console.log("Chegamos!!!");
 ```
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (3) (1).png>)

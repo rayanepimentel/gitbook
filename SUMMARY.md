@@ -7,9 +7,9 @@
     * [Shell Script](base-greater-than-html-e-css/base/shell-script.md)
     * [Permissões de arquivos](base-greater-than-html-e-css/base/permissoes-de-arquivos.md)
     * [Resumão](base-greater-than-html-e-css/base/resumao.md)
-  * [HTML & CS](base-greater-than-html-e-css/html-and-cs.md)
-  * [Semana 01](base-greater-than-html-e-css/semana-01/README.md)
-    * [Resumo semana 01](base-greater-than-html-e-css/semana-01/resumo-semana-01.md)
+  * [HTML-CSS](base-greater-than-html-e-css/html-css/README.md)
+    * [Semana 01](base-greater-than-html-e-css/html-css/semana-01.md)
+    * [Resumo Semana 01](base-greater-than-html-e-css/html-css/resumo-semana-01.md)
 
 ## Fundamentos
 
@@ -65,5 +65,3 @@
 ## Object
 
 * [Tipo object](object/tipo-object.md)
-
-## Group 1
