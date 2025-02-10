@@ -26,8 +26,6 @@ Concluir as atividades:
 
 ![](../../.gitbook/assets/image.png)
 
-###
-
 ### 3. Formulário
 
 Responda o formulário:\
